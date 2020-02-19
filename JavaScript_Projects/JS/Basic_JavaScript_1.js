@@ -8,3 +8,6 @@ function My_First_Function() {
     var result= str.fontcolor("green");
     document.getElementById("Green_Text").innerHTML=result;
 }
+function myScript() {
+    document.write("This is some fancy stuff.")
+}
