@@ -24,3 +24,20 @@ function cat_pics() {
     Cat_Picture[3] = "eating";
     document.getElementById("Cat").innerHTML = "In this picture, the cat is " + Cat_Picture[2] + ".";
 }
+function constant_function () {
+    const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};    
+    Musical_Instrument.color = "blue";
+    Musical_Instrument.price = "$900";
+    document.getElementById("Constant").innerHTML="The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price;
+}
+var X = 42;
+document.write("<br>" + X);
+{
+    let X = 25;
+    document.write("<br>" + X);
+}
+document.write("<br>" + x);
+function pi() {
+    return Math.PI;
+}
+document.getElementById("math").innerHTML = pi();

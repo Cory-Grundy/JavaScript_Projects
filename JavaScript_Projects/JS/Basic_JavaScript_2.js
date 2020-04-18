@@ -1,6 +1,6 @@
 function My_Function() {
     var string="This text is green!";
-    var result=str.fontcolor("green");
+    var result=string.fontcolor("green");
     document.getElementById("Green_Text").innerHTML=result;
 }
 function myFunction() {
