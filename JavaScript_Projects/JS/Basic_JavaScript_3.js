@@ -4,5 +4,5 @@ function add() {
 }
 function funcSubtract() {
     var Subtraction = 5 - 2;
-    document.getElementById("Math2").innerHTML = "5 - 2 = " + Subtraction;
+    document.getElementById("Math").innerHTML = "5 - 2 = " + Subtraction;
 }
