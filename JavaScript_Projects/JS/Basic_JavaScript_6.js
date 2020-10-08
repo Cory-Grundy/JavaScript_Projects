@@ -38,7 +38,6 @@ function dogFunction() {
 
 function count_Function() {
 	document.getElementById("Nested_Function").innerHTML = Count();
-	//this is a nested function
 	function Count() {
 		var Starting_point = 9;
 		function Plus_one() {Starting_point += 1;}
