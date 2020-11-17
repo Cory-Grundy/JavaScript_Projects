@@ -7,7 +7,7 @@ function Call_Loop() {
     }
     document.getElementById("Loop").innerHTML = Digit;
 }
-
+/* Above code is a basic loop and counst up from 1 to 10. */
 var Instruments = ["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
 var Content = "";
 var Y;
@@ -17,7 +17,7 @@ function for_Loop() {
     }
     document.getElementById("List_of_Instruments").innerHTML = Content;
 }
-
+/* Above this code is a for Loop. */
 function array_Function() {
     var Cat_Picture = [];
     Cat_Picture[0] = "sleeping";
@@ -26,15 +26,15 @@ function array_Function() {
     Cat_Picture[3] = "purring";
     document.getElementById("Array").innerHTML = "In this picture, the cat is " + Cat_Picture[2] + ".";
 }
-
+/* This is an array function and it deals with cats. (Not all the time) */
 function constant_function() {
-    const Mucical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
+    const Musical_Instrument = {type:"guitar", brand:"Fender", color:"black"};
     Musical_Instrument.color = "blue";
     Musical_Instrument.price = "$950";
-    Musical_Instrument.strings = "a five pack of strings";
+    Musical_Instrument.strings = " and a five pack of strings";
     document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price + Musical_Instrument.strings + " for free.";
 }
-
+/* This code is broken, getting it fixed soon. */
 var X = 82;
 document.write("<br>" + X);
 {
@@ -42,8 +42,20 @@ document.write("<br>" + X);
     document.write("<br>" + X);
 }
 document.write("<br>" + X);
-
+/* More broken code, it is however a let and a variable together, supposed to produce 3 numbers but they don't show up. */
 function retun_function() {
     return Math.PT;
 }
 document.getElementById("Return_Function");
+/* This is a part of the return function. it doesn't seem to want to work either, maybe because of broken code above? */
+let car = {
+    make: "Chevrolete ",
+    model: "Corolla ",
+    year: "1999 ",
+    color: "gold ",
+    description : function() {
+        return "The car is a " + this.year + this.color + this.make + this.model;
+    }
+};
+document.getElementById("Car_Object").innerHTML = car.description();
+/* This block of code creates an object using the let statement. */
