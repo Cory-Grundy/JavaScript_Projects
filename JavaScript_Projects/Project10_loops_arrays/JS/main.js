@@ -34,7 +34,7 @@ function constant_function() {
     Musical_Instrument.strings = " and a five pack of strings";
     document.getElementById("Constant").innerHTML = "The cost of the " + Musical_Instrument.type + " was " + Musical_Instrument.price + Musical_Instrument.strings + " for free.";
 }
-/* This code is broken, getting it fixed soon. */
+/* This code is broken, getting it fixed soon.   (Update) Another typo... */
 var X = 82;
 document.write("<br>" + X);
 {
@@ -42,7 +42,7 @@ document.write("<br>" + X);
     document.write("<br>" + X);
 }
 document.write("<br>" + X);
-/* More broken code, it is however a let and a variable together, supposed to produce 3 numbers but they don't show up. */
+/* ((More broken code,) No longer broken, moved the script tag in the html file to the bottom of the html file and it works now. I also removed the defer tag at the request of Instructor Levi.) This code is a let and a variable together, supposed to produce 3 numbers but they don't show up. */
 function retun_function() {
     return Math.PT;
 }
