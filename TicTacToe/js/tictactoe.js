@@ -573,6 +573,7 @@ function square3Animate() {
 			checkForWinCon();
 			avatarPlaced(square,paintAvatar);
 			squareSound();
+		}
 	}
 }
 function square4Animate() {
