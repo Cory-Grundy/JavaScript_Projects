@@ -18,14 +18,14 @@
 			ajax.open('GET', 'content.html');
 			
 			ajax.onreadystatechange = function() {
-				if (ajax.ready == 4) {
+				if (ajax.readyState == 4) {
 					document.getElamentById('content').innerHTML = ajax.responseText;
 				}
 			}
 			
 			function getContent() {
 			ajax.send();
-			document.getElementById('btn_content')style.display = 'none'
+			document.getElementById('btn_content').style.display = 'none';
 			}
 			
 		</script>
