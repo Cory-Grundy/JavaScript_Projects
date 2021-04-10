@@ -1,1 +1,1 @@
-# JavaScript_Projects
+Various projects made with JavaScript embedded in them.
